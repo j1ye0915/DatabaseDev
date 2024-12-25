@@ -345,7 +345,7 @@ Snapshot of Normalization,
     group by a.Allergy_Category, pa.severity_level
     order by count(pa.severity_level) DESC
 
-#### Query 2 - Results:
+#### Query 2 - Result
 
  ![image](https://github.com/user-attachments/assets/977b7b0c-321e-4962-9a94-69a8184c1e6b)
 
@@ -359,7 +359,7 @@ Snapshot of Normalization,
     group by d.Dept_Desc, year(pcare.Completion_Date)
     order by count(p.Patient_ID) DESC
 
-#### Query 2 - Results: 
+#### Query 2 - Result
 
 ![image](https://github.com/user-attachments/assets/d7d75c4c-c984-4442-8336-abc99856a951)
 
@@ -373,7 +373,7 @@ Snapshot of Normalization,
     GROUP BY m.staff_ID, s.fname, s.lname
     HAVING count (m.staff_ID) > 3
 
-#### Query 3 - Results:
+#### Query 3 - Result
 
 ![image](https://github.com/user-attachments/assets/0a259d3e-6ff9-442b-a777-edd1f752d203)
 
@@ -387,7 +387,7 @@ Snapshot of Normalization,
     INNER JOIN Medication M on M.Med_ID = PRE.Med_ID
     WHERE M.IsOpioid = 1
 
-#### Query 4 - Results:
+#### Query 4 - Result
 
 ![image](https://github.com/user-attachments/assets/1535ac56-60a7-4414-9ccf-04c411465d37)
 
@@ -405,7 +405,7 @@ Snapshot of Normalization,
     ON pcon.MC_ID = mc.MC_ID
     WHERE DATEDIFF(DAY, hs.Admit_Date, hs.Discharge_Date) >7
 
-#### Query 5 - Results:
+#### Query 5 - Result
 
 ![image](https://github.com/user-attachments/assets/3e8bf1f9-5ae8-4fd9-bfea-a0f010ebf8f6)
 
