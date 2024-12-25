@@ -45,7 +45,7 @@ Snapshot of Normalization,
 
 -	Security Measures: Implemented tiered access controls, limiting data modification to authorized roles such as administrators and medical staff.
 
-4.	Data Analysis and Reporting:
+4.	Data Reporting:
 -	Developed SQL queries to provide actionable insights.
 
 -	Identifying doctors with recurring malpractice cases.
